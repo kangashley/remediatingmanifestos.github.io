@@ -15,7 +15,7 @@ $(document).ready(function() {
 	$('footer').hide().delay(1000).fadeIn(1000);
 		
 	/* jQUERY UI */
-	$('img.drag').mouseover().draggable({stack: 'img.drag'});
+	$('img.drag').draggable({stack: 'img.drag'});
 
 	$('.about').eq(0).on('click', function() {
 		$('.about').removeClass('selected');
