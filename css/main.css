@@ -1,0 +1,84 @@
+/* LAYOUT STYLES */
+body {
+	/*background-image: url('');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;*/
+	background-color: #fa877a;
+}
+
+#container {
+	padding: 1em;
+}
+
+/*nav {
+}*/
+
+aside {
+	margin-top: 110px;
+}
+
+section {
+	margin: auto;
+	padding: 1em;
+	white-space: nowrap;
+}
+
+img {
+	height: 100%;
+}
+
+.about, .selected {
+	padding: 1em;
+}
+
+/* TEXT STYLES */
+/*@font-face {
+	font-family: '', sans-serif;
+	src:
+		url('');
+}*/
+
+h1 {
+	font-family: 'Pacifico', serif;
+	font-size: 3.5em;
+	text-align: center;
+	letter-spacing: 0.05em;
+	margin-bottom: 30px;
+}
+
+nav {
+	font-family: 'Pacifico', serif;
+	font-size: 1.3em;
+	text-align: center;
+	white-space: nowrap;
+}
+
+p {
+	font-family: 'Karla', sans-serif;
+	font-size: 1em;
+	text-align: center;
+}
+
+p.reference {
+	font-family: 'Karla', sans-serif;
+	font-size: 0.8em;
+}
+
+/* LINK STYLES */
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:focus, a:hover {
+	color: #87c7e1;
+}
+
+a:active {
+	opacity: 0.5;
+}
+
+a.selected:link, a.selected:visited {
+	color: #87c7e1;
+}
