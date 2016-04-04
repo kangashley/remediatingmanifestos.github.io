@@ -29,8 +29,7 @@ $(document).ready(function() {
 		$('.about').removeClass('selected');
 		$(this).addClass('selected');
 		$('aside').empty();
-		var $text = '<p>My Uncle Alex Vonnegut...<br>taught me something very important.<br>He said that when things are going really well<br>we should be sure to notice it.<br>He was talking about very simple occasions,<br>not great victories. <br>Maybe drinking lemonade under a shade tree,<br>or smelling the aroma of a bakery,<br>or fishing,<br>or listening to music coming from a concert hall<br>while standing in the dark outside,<br>or, dare I say, after a kiss.<br>He told me it was important at such times<br>to say out loud,<br><em>If this isn’t nice, what is?</em><br>KURT VONNEGUT</p>';
+		var $text = '<p>My Uncle Alex Vonnegut...<br>taught me something very important.<br>He said that when things are going really well<br>we should be sure to notice it.<br>He was talking about very simple occasions,<br>not great victories. <br>Maybe drinking lemonade under a shade tree,<br>or smelling the aroma of a bakery,<br>or fishing,<br>or listening to music coming from a concert hall<br>while standing in the dark outside,<br>or, dare I say, after a kiss.<br>He told me it was important at such times<br>to say out loud,<br><em>If this isnâ€™t nice, what is?</em><br>KURT VONNEGUT</p>';
 		$('aside').html($text);
 	})
-    }
 });
