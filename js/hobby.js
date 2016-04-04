@@ -34,7 +34,7 @@ $(document).ready(function() {
         
         return this;
 	
-	});
+	})
 
 	$('.about').eq(0).on('click', function() {
 		$('.about').removeClass('selected');
