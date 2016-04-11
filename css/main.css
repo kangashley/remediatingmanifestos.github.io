@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* LAYOUT STYLES */
+body {
+	/*background-image: url('');
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;*/
+    
+    background: #f9ad81; /* for browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f9ad81, #efb0cb, #bdc5c8); /* for Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9ad81, #efb0cb, #bdc5c8); /* for Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9ad81, #efb0cb, #bdc5c8); /* for Firefox 3.6 to 15 */
+    background: linear-gradient(#f9ad81, #efb0cb, #bdc5c8); /* standard syntax */
+}
+
+#container {
+	padding: 1em;
+}
+
+header {
+    margin-top: 110px;
+    text-align: center;
+    /*position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;*/
+}
+
+aside {
+    text-align: center;
+}
+
+section {
+	/*margin: ;*/
+	padding: 1em;
+	white-space: nowrap;
+    width: 100px;
+}
+
+article {
+    text-align: center;
+    width: 280px;
+}
+
+img {
+	height: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+/* TEXT STYLES */
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+
+/*@font-face {
+	font-family: '', sans-serif;
+	src:
+		url('');
+}*/
+
+p {
+	font-family: 'Nothing You Could Do', sans-serif;
+	font-size: 1em;
+    color: #3f0ef6;
+    letter-spacing: 0.05em;
+    
+	text-align: center;
+}
+
+p.shoutout {
+	font-family: 'Nothing You Could Do', sans-serif;
+	font-size: 0.8em;
+    
+    text-align: center;
+}
+
+/* LINK STYLES */
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:focus, a:hover {
+	color: #3f0ef6;
+}
+
+/*a:active {
+	opacity: 0.5;
+}*/
+
+a.selected:link, a.selected:visited {
+	color: #3f0ef6;
+}
